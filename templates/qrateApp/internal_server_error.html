@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>QRate - Server Error</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffffff, #e6f0ff, #cce0ff, #b3d1ff, #99c2ff, #80b3ff, #66a3ff, #4d94ff, #3385ff, #1a75ff, #007bff);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .branding h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .branding p {
+            margin: 10px 0 20px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .error-message {
+            font-size: 20px;
+            color: #d9534f;
+            margin-top: 30px;
+        }
+
+        .home-link {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            background-color: #007bff;
+            padding: 12px 20px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .home-link:hover {
+            background-color: #0056b3;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="branding">
+            <img src="{% static 'images/logo.png' %}" class="logo" alt="QRate Logo" />
+            <h1>QRate</h1>
+            <p>Instantly share code via QR — simple, fast, and temporary.</p>
+        </div>
+
+        <p class="error-message">⚠️ Oops! Something went wrong on our server.</p>
+        <a class="home-link" href="/">← Return to Home</a>
+    </div>
+</body>
+</html>

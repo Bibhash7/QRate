@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>QRate - Page Not Found</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffffff, #e6f0ff, #cce0ff, #b3d1ff, #99c2ff, #80b3ff, #66a3ff, #4d94ff, #3385ff, #1a75ff, #007bff);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .branding img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .branding h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #007bff;
+        }
+
+        .branding p {
+            margin: 5px 0 20px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .error-code {
+            font-size: 80px;
+            color: #d9534f;
+            margin: 30px 0 10px;
+            font-weight: bold;
+        }
+
+        .error-message {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .home-link {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            background-color: #007bff;
+            padding: 12px 20px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .home-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="branding">
+            <h1>QRate</h1>
+            <p>Instantly share code via QR — simple, fast, and temporary.</p>
+        </div>
+
+        <div class="error-code">404</div>
+        <div class="error-message">The page you’re looking for doesn’t exist.</div>
+        <a class="home-link" href="/">← Go Back to Home</a>
+    </div>
+</body>
+</html>
