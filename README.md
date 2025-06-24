@@ -2,6 +2,8 @@
 
 **QRate** is a minimalist Django-based web app that lets users paste code, generate a QR code for the link, and access the code by scanning the QR. It’s simple, fast, and the QR and code expire shortly to ensure privacy.
 
+🔗 **Live Demo**: [https://qrate.pythonanywhere.com/](https://qrate.pythonanywhere.com/)
+
 ## 🌟 Features
 
 - Paste code and generate a shareable QR code.
