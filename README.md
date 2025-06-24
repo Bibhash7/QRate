@@ -17,6 +17,7 @@
 
 ## 📂 Folder Structure
 
+```
 qrateProject/
 │
 ├── qrateApp/
@@ -43,6 +44,7 @@ qrateProject/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+```
 
 ## 🛠 Technologies Used
 
